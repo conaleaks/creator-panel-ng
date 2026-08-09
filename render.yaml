@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: paid-surveys-ng
+    name: creator-panel-ng
     runtime: static
     plan: free
     buildCommand: echo "Static site ready"
