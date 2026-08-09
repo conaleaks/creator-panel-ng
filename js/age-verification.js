@@ -1,7 +1,7 @@
 /**
- * TikTok Rewards - Age Verification Script
+ * Age Verification Script
  *
- * Este script gerencia a verificação de idade antes de acessar o site principal.
+ * Gerencia a verificação de idade antes de acessar o site principal.
  * Ambas as opções redirecionam para o conteúdo principal (camada de proteção visual).
  */
 

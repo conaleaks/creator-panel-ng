@@ -1,20 +1,20 @@
 /* =========================================================
-   TikTok Rewards - Age Verification Styles
+   Age Verification Styles
    ========================================================= */
 
 /* ------------- VARIÁVEIS DE DESIGN ----------------- */
 :root {
-    /* Cores primárias TikTok */
-    --color-primary: #FE2C55;
-    --color-primary-light: #FF4D70;
-    --color-primary-dark: #E01A45;
-    --color-primary-gradient: linear-gradient(135deg, #FE2C55 0%, #FF4D70 100%);
+    /* Cores primárias */
+    --color-primary: #2563EB;
+    --color-primary-light: #3B82F6;
+    --color-primary-dark: #1D4ED8;
+    --color-primary-gradient: linear-gradient(135deg, #2563EB 0%, #3B82F6 100%);
 
-    /* Cores secundárias TikTok */
-    --color-secondary: #25F4EE;
-    --color-secondary-light: #5FF7F2;
-    --color-secondary-dark: #1AD4CF;
-    --color-secondary-gradient: linear-gradient(135deg, #25F4EE 0%, #5FF7F2 100%);
+    /* Cores secundárias */
+    --color-secondary: #64748B;
+    --color-secondary-light: #94A3B8;
+    --color-secondary-dark: #475569;
+    --color-secondary-gradient: linear-gradient(135deg, #64748B 0%, #94A3B8 100%);
 
     /* Cores neutras */
     --color-white: #FFFFFF;
@@ -188,19 +188,6 @@ button {
     gap: var(--space-2);
 }
 
-.tiktok-logo {
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
-}
-
-.tiktok-brand {
-    font-size: var(--text-xl);
-    font-weight: var(--font-bold);
-    color: var(--color-gray-900);
-    letter-spacing: -0.03em;
-}
-
 .logo-small {
     font-size: var(--text-base);
     font-weight: var(--font-bold);
@@ -350,22 +337,24 @@ button {
 .btn-primary {
     background: var(--color-primary-gradient);
     color: var(--color-white);
-    box-shadow: 0 4px 6px -1px rgba(254, 44, 85, 0.2), 0 2px 4px -1px rgba(254, 44, 85, 0.1);
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2), 0 2px 4px -1px rgba(37, 99, 235, 0.1);
 }
 
 .btn-primary:hover {
-    box-shadow: 0 6px 10px -1px rgba(254, 44, 85, 0.3), 0 2px 4px -1px rgba(254, 44, 85, 0.2);
+    box-shadow: 0 6px 10px -1px rgba(37, 99, 235, 0.3), 0 2px 4px -1px rgba(37, 99, 235, 0.2);
     transform: translateY(-2px);
 }
 
 .btn-secondary {
-    background: var(--color-secondary-gradient);
-    color: var(--color-gray-900);
-    box-shadow: 0 4px 6px -1px rgba(37, 244, 238, 0.2), 0 2px 4px -1px rgba(37, 244, 238, 0.1);
+    background: var(--color-white);
+    color: var(--color-gray-700);
+    border: 1px solid var(--color-gray-300);
+    box-shadow: var(--shadow-sm);
 }
 
 .btn-secondary:hover {
-    box-shadow: 0 6px 10px -1px rgba(37, 244, 238, 0.3), 0 2px 4px -1px rgba(37, 244, 238, 0.2);
+    background: var(--color-gray-50);
+    box-shadow: var(--shadow-md);
     transform: translateY(-2px);
 }
 
