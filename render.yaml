@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tiktok-rewards
+    name: paid-surveys-ng
     runtime: static
     plan: free
     buildCommand: echo "Static site ready"
