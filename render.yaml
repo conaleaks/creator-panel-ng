@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tiktok-rewards
+    runtime: static
+    plan: free
+    buildCommand: echo "Static site ready"
+    staticPublishPath: .
